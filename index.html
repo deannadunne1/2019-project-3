@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Armata|Monoton&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>It's lit!</h1>
+        <h4>...or is it</h4>
+        <div id="directions">
+          <p>These lightbulbs were connected by an ameteur electrician. He somehow messed up the wiring!</p>
+          <p>Click the lighbulb to hit the switch</p>
+          <p>Try your best to get all lightbulbs turned on!</p>
+        </div>
+        <br><br><br><br><br>
+        <div id="gameBoard" class="board">
+            <div id="bulb1" class="lightbulbs">💡</div>
+            <div id="bulb2" class="lightbulbs">💡</div>
+            <div id="bulb3" class="lightbulbs">💡</div>
+            <div id="bulb4" class="lightbulbs">💡</div>
+            <div id="bulb5" class="lightbulbs">💡</div>
+        </div>
+        <div id="switchBoard" class="board">
+            <div id="switch1" class="switch hiddenSwitch">🔴</div>
+            <div id="switch2" class="switch hiddenSwitch">🔴</div>
+            <div id="switch3" class="switch hiddenSwitch">🔴</div>
+            <div id="switch4" class="switch hiddenSwitch">🔴</div>
+            <div id="switch5" class="switch hiddenSwitch">🔴</div>
+        </div>
+        <div id="helpPanel" class="board">
+          <div id="reset" class="help">
+            <p>Click to Reset</p>
+          </div>
+          <div id="hint1" class="help">
+            <p>Click for Hint</p>
+          </div>
+          <div id="hint2" class="help hidden">
+            <p>Click for Second Hint</p>
+          </div>
+          <div id="hint3" class="help hidden">
+            <p>Click for Third Hint</p>
+          </div>
+        </div>
+        <div id="winAlert" class="hidden">
+            <h1>YOU WIN</h1>
+            <h4>Keep spreading this light around the world</h4>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
